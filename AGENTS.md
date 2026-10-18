@@ -7,3 +7,11 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+## Regras do projeto Casa Nova
+
+- Dinheiro é sempre inteiro em centavos (BRL). Nunca use float.
+- Pedidos e linhas são imutáveis (triggers no banco). Para corrigir, arquive e registre outro.
+- Toda página e Server Action chama `requireUser()`; toda query filtra por `user_id`.
+- Regras de negócio ficam em `src/domain`, sem dependência de framework, e com testes.
+- Antes de concluir uma mudança, rode `npm run check`.
