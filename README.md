@@ -6,8 +6,31 @@ Projeto pessoal, de usuário único, construído de ponta a ponta: modelagem de 
 
 > **Demonstração:** o app é privado (login de uma única conta), então não há link público para uso. Para ver o resultado, veja as capturas de tela abaixo ou rode localmente seguindo [Desenvolvimento local](#desenvolvimento-local).
 
-<!-- Capturas de tela: adicione imagens em docs/screenshots/ e referencie aqui, por exemplo:
-![Painel](docs/screenshots/painel.png) -->
+## Capturas de tela
+
+**Login** (acesso restrito a uma única conta)
+
+![Tela de login](docs/screenshots/casanova1.png)
+
+**Resumo:** estimativa planejada, gasto real e custo pendente, com os totais por cômodo
+
+![Resumo com totais e cômodos](docs/screenshots/casanova2.png)
+
+**Prioridade alta pendente:** os itens mais importantes que ainda faltam comprar
+
+![Itens de prioridade alta pendentes](docs/screenshots/casanova3.png)
+
+**Cômodo:** itens com status, quantidade comprada e desejada, preço estimado e custo pendente
+
+![Itens de um cômodo](docs/screenshots/casanova4.png)
+
+**Formulário de item e gestão do cômodo:** renomear ou excluir transferindo os itens para outro cômodo
+
+![Formulário de item e exclusão de cômodo](docs/screenshots/casanova5.png)
+
+**Novo pedido:** itens comprados, frete, desconto e total efetivamente pago, com prévia do cálculo
+
+![Formulário de novo pedido](docs/screenshots/casanova6.png)
 
 ## Funcionalidades
 
